@@ -19,6 +19,10 @@ This repository uses specific tools to map the business requirements into techni
     └── 📄 test_tavardt_api.py
 ```
 
+
+
+> *Note: The tests in this repository are simulated for educational and portfolio demonstration purposes.*
+
 ---
 <br><br>
 
@@ -39,3 +43,6 @@ Este repositório utiliza ferramentas específicas para mapear os requisitos de 
 └── 📁 tests
     └── 📄 test_tavardt_api.py
 ```
+
+
+> *Nota: Os testes neste repositório são simulados para fins educacionais e de demonstração de portfólio.*
