@@ -17,6 +17,15 @@ This repository demonstrates my ability to validate data integrity, handle HTTP 
 > 
 > Our CI/CD pipeline automatically publishes the latest Pytest execution report to GitHub Pages using Allure. It includes detailed logs, execution times, and visual graphs of all backend tests.
 
+## 🔗 The QA Engineering Ecosystem
+
+This repository is part of a larger Quality Engineering ecosystem, demonstrating my ability to test applications across the entire testing pyramid. Check out the other layers:
+
+- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Main E2E Framework)
+- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Backend JSON & Schema validation)
+- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (BDD & Keyword-Driven UI Testing)
+- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (Load, Stress & Spike Testing SLAs)
+
 ## Repository Architecture (Multi-Client)
 
 The test scripts are organized by client/project folders, demonstrating a scalable structure for enterprise test suites across different environments.
@@ -89,6 +98,15 @@ Este repositório demonstra minha capacidade de validar integridade de dados, ma
 > **[Acessar Relatório Allure Interativo](https://realleotavares.github.io/pytest-api-automation/)**
 > 
 > Nossa pipeline CI/CD publica automaticamente o último relatório de execução do Pytest no GitHub Pages usando o Allure Report. Ele inclui logs detalhados de requisição, tempo de resposta e gráficos visuais.
+
+## 🔗 O Ecossistema de Engenharia de Qualidade
+
+Este repositório faz parte de um ecossistema maior de Quality Engineering, demonstrando minha habilidade de testar aplicações em todas as camadas da Pirâmide de Testes. Conheça as outras camadas:
+
+- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Framework Principal de E2E)
+- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Validação de Backend JSON & Schema)
+- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (Testes de UI BDD & Keyword-Driven)
+- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (SLAs de Load, Stress & Spike Testing)
 
 ## Arquitetura do Repositório (Multi-Client)
 
