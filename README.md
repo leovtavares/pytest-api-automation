@@ -74,7 +74,7 @@ allure serve allure-results
 
 This repository is part of a larger Quality Engineering ecosystem, demonstrating my ability to test applications across the entire testing pyramid. Check out the other layers:
 
-- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Main E2E Framework)
+- **[Playwright E2E Architecture](https://github.com/realleotavares/playwright-e2e-automation)** (Main E2E Framework)
 - **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Backend JSON & Schema validation)
 - **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (BDD & Keyword-Driven UI Testing)
 - **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (Load, Stress & Spike Testing SLAs)
@@ -158,10 +158,11 @@ allure serve allure-results
 
 Este repositório faz parte de um ecossistema maior de Quality Engineering, demonstrando minha habilidade de testar aplicações em todas as camadas da Pirâmide de Testes. Conheça as outras camadas:
 
-- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Framework Principal de E2E)
+- **[Playwright E2E Architecture](https://github.com/realleotavares/playwright-e2e-automation)** (Framework Principal de E2E)
 - **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Validação de Backend JSON & Schema)
 - **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (Testes de UI BDD & Keyword-Driven)
 - **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (SLAs de Load, Stress & Spike Testing)
 
 ---
 *Este portfólio é governado por rigorosos padrões de CI/CD e engenharia de backend.*
+
