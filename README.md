@@ -1,4 +1,4 @@
-[🇺🇸 English](#english) | [🇧🇷 Português](#português)
+[English](#english) | [Português](#português)
 
 <a id="english"></a>
 # Pytest API Automation Portfolio
@@ -11,21 +11,6 @@
 Welcome to my backend quality assurance and API test automation portfolio.
 This repository demonstrates my ability to validate data integrity, handle HTTP requests, and implement test assertions directly in code, using an enterprise-ready architecture.
 
-## Live Quality Dashboard (Allure Report)
-
-> **[View Live Allure Test Report](https://realleotavares.github.io/pytest-api-automation/)**
-> 
-> Our CI/CD pipeline automatically publishes the latest Pytest execution report to GitHub Pages using Allure. It includes detailed logs, execution times, and visual graphs of all backend tests.
-
-## 🔗 The QA Engineering Ecosystem
-
-This repository is part of a larger Quality Engineering ecosystem, demonstrating my ability to test applications across the entire testing pyramid. Check out the other layers:
-
-- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Main E2E Framework)
-- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Backend JSON & Schema validation)
-- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (BDD & Keyword-Driven UI Testing)
-- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (Load, Stress & Spike Testing SLAs)
-
 ## Repository Architecture (Multi-Client)
 
 The test scripts are organized by client/project folders, demonstrating a scalable structure for enterprise test suites across different environments.
@@ -36,15 +21,29 @@ pytest-api-automation/
 ├── requirements.txt            # Python dependencies (Pytest, Requests, Allure)
 ├── .github/workflows/          # CI/CD Pipelines (Allure Report Generation & GH Pages Deploy)
 │
+├── luxury-store/               # E-commerce API validations
+│   └── tests/
+│       └── test_cart_api.py    # Math validations and backend logic
+│
+├── comptia/                    # Vouchers and pricing validations
+│   └── tests/
+│       └── test_exam_vouchers_api.py # JSON schema and data type checks
+│
 ├── core-api/                   # Core microservices and common utilities
 │   └── tests/
 │       └── test_auth.py        # Authentication and authorization tests
 │
-└── tavardt-backend/            # 🌍 API layer for the Tavardt platform
+└── tavardt-backend/            # API layer for the Tavardt platform
     └── tests/
         ├── test_users_api.py   # CRUD operations and data integrity validations
         └── test_payments.py    # Mocking and integration tests for external gateways
 ```
+
+## Live Quality Dashboard (Allure Report)
+
+> **[View Live Allure Test Report](https://realleotavares.github.io/pytest-api-automation/)**
+> 
+> Our CI/CD pipeline automatically publishes the latest Pytest execution report to GitHub Pages using Allure. It includes detailed logs, execution times, and visual graphs of all backend tests.
 
 ## Quick Start (Developer Onboarding)
 
@@ -77,6 +76,15 @@ allure serve allure-results
 2. **DevOps & CI/CD:** Robust GitHub Actions pipeline generating and publishing rich Allure HTML Reports.
 3. **Clean Code:** Use of Pytest fixtures for setup/teardown and DRY code principles.
 
+## The QA Engineering Ecosystem
+
+This repository is part of a larger Quality Engineering ecosystem, demonstrating my ability to test applications across the entire testing pyramid. Check out the other layers:
+
+- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Main E2E Framework)
+- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Backend JSON & Schema validation)
+- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (BDD & Keyword-Driven UI Testing)
+- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (Load, Stress & Spike Testing SLAs)
+
 ---
 *This portfolio is governed by strict CI/CD and backend engineering standards.*
 
@@ -93,21 +101,6 @@ allure serve allure-results
 Bem-vindo ao meu portfólio de automação de testes de API e garantia de qualidade de backend.
 Este repositório demonstra minha capacidade de validar integridade de dados, manipular requisições HTTP e implementar asserções de teste diretamente via código.
 
-## Dashboard de Qualidade (Allure Report)
-
-> **[Acessar Relatório Allure Interativo](https://realleotavares.github.io/pytest-api-automation/)**
-> 
-> Nossa pipeline CI/CD publica automaticamente o último relatório de execução do Pytest no GitHub Pages usando o Allure Report. Ele inclui logs detalhados de requisição, tempo de resposta e gráficos visuais.
-
-## 🔗 O Ecossistema de Engenharia de Qualidade
-
-Este repositório faz parte de um ecossistema maior de Quality Engineering, demonstrando minha habilidade de testar aplicações em todas as camadas da Pirâmide de Testes. Conheça as outras camadas:
-
-- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Framework Principal de E2E)
-- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Validação de Backend JSON & Schema)
-- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (Testes de UI BDD & Keyword-Driven)
-- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (SLAs de Load, Stress & Spike Testing)
-
 ## Arquitetura do Repositório (Multi-Client)
 
 Os scripts de teste são organizados por pastas de clientes/projetos, demonstrando uma estrutura corporativa pronta para escalar suítes de testes em diferentes ambientes de backend.
@@ -118,15 +111,29 @@ pytest-api-automation/
 ├── requirements.txt            # Dependências Python (Pytest, Requests, Allure)
 ├── .github/workflows/          # Pipelines CI/CD (Geração de Allure e Deploy no GH Pages)
 │
+├── luxury-store/               # Validações de E-commerce
+│   └── tests/
+│       └── test_cart_api.py    # Validação de regras matemáticas e backend
+│
+├── comptia/                    # Validações de preços e vouchers
+│   └── tests/
+│       └── test_exam_vouchers_api.py # Checagem de tipos e JSON schema
+│
 ├── core-api/                   # Microsserviços base e utilitários
 │   └── tests/
 │       └── test_auth.py        # Testes de autenticação, JWT e autorização
 │
-└── tavardt-backend/            # 🌍 Camada de API para a plataforma Tavardt
+└── tavardt-backend/            # Camada de API para a plataforma Tavardt
     └── tests/
         ├── test_users_api.py   # Operações CRUD e validação de integridade de schema
         └── test_payments.py    # Testes de integração (Mocks) para gateways externos
 ```
+
+## Dashboard de Qualidade (Allure Report)
+
+> **[Acessar Relatório Allure Interativo](https://realleotavares.github.io/pytest-api-automation/)**
+> 
+> Nossa pipeline CI/CD publica automaticamente o último relatório de execução do Pytest no GitHub Pages usando o Allure Report. Ele inclui logs detalhados de requisição, tempo de resposta e gráficos visuais.
 
 ## Quick Start (Onboarding de Desenvolvedores)
 
@@ -158,6 +165,15 @@ allure serve allure-results
 1. **Validação de Backend:** Teste rigoroso de schemas, *status codes*, cabeçalhos e *payloads* JSON.
 2. **DevOps & CI/CD:** Pipeline automatizada via GitHub Actions com deploy do Allure Report.
 3. **Clean Code:** Utilização de *fixtures* do Pytest para setup/teardown eficiente e código DRY (Don't Repeat Yourself).
+
+## O Ecossistema de Engenharia de Qualidade
+
+Este repositório faz parte de um ecossistema maior de Quality Engineering, demonstrando minha habilidade de testar aplicações em todas as camadas da Pirâmide de Testes. Conheça as outras camadas:
+
+- **[Playwright E2E Architecture](https://github.com/realleotavares/portfolio-qa)** (Framework Principal de E2E)
+- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Validação de Backend JSON & Schema)
+- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (Testes de UI BDD & Keyword-Driven)
+- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (SLAs de Load, Stress & Spike Testing)
 
 ---
 *Este portfólio é governado por rigorosos padrões de CI/CD e engenharia de backend.*
