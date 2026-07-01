@@ -70,12 +70,6 @@ pytest */tests/ -v --alluredir=allure-results
 allure serve allure-results
 ```
 
-## Core Competencies Demonstrated
-
-1. **Backend Validation:** Validating schema types, status codes, and JSON response bodies.
-2. **DevOps & CI/CD:** Robust GitHub Actions pipeline generating and publishing rich Allure HTML Reports.
-3. **Clean Code:** Use of Pytest fixtures for setup/teardown and DRY code principles.
-
 ## The QA Engineering Ecosystem
 
 This repository is part of a larger Quality Engineering ecosystem, demonstrating my ability to test applications across the entire testing pyramid. Check out the other layers:
@@ -159,12 +153,6 @@ pytest */tests/ -v --alluredir=allure-results
 # 5. Visualize o Relatório Localmente (requer Allure CLI instalado)
 allure serve allure-results
 ```
-
-## Competências Core Demonstradas
-
-1. **Validação de Backend:** Teste rigoroso de schemas, *status codes*, cabeçalhos e *payloads* JSON.
-2. **DevOps & CI/CD:** Pipeline automatizada via GitHub Actions com deploy do Allure Report.
-3. **Clean Code:** Utilização de *fixtures* do Pytest para setup/teardown eficiente e código DRY (Don't Repeat Yourself).
 
 ## O Ecossistema de Engenharia de Qualidade
 
