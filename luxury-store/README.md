@@ -11,6 +11,14 @@ This repository uses specific tools to map the business requirements into techni
 
 - **Current Repository Target:** Backend inventory calculation rules.
 
+
+**Repository Structure:**
+```text
+📁 luxury-store
+└── 📁 tests
+    └── 📄 test_cart_api.py
+```
+
 ---
 <br><br>
 
@@ -24,3 +32,10 @@ Validar operações de carrinho de alto volume, compras concorrentes e restriç�
 Este repositório utiliza ferramentas específicas para mapear os requisitos de negócio nas camadas técnicas de teste. Aqui está a estratégia para este domínio:
 
 - **Alvo do Repositório Atual:** Regras de cálculo de estoque no backend.
+
+**Estrutura do Repositório:**
+```text
+📁 luxury-store
+└── 📁 tests
+    └── 📄 test_cart_api.py
+```

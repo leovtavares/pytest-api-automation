@@ -11,6 +11,14 @@ This repository uses specific tools to map the business requirements into techni
 
 - **Current Repository Target:** API schema validation for search queries.
 
+
+**Repository Structure:**
+```text
+📁 comptia
+└── 📁 tests
+    └── 📄 test_exam_vouchers_api.py
+```
+
 ---
 <br><br>
 
@@ -24,3 +32,10 @@ Validar os fluxos de busca, filtragem e aquisição de vouchers para certificaç
 Este repositório utiliza ferramentas específicas para mapear os requisitos de negócio nas camadas técnicas de teste. Aqui está a estratégia para este domínio:
 
 - **Alvo do Repositório Atual:** Validação de schema de API para consultas de busca.
+
+**Estrutura do Repositório:**
+```text
+📁 comptia
+└── 📁 tests
+    └── 📄 test_exam_vouchers_api.py
+```
