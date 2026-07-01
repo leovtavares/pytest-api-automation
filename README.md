@@ -16,27 +16,27 @@ This repository demonstrates my ability to validate data integrity, handle HTTP 
 The test scripts are organized by client/project folders, demonstrating a scalable structure for enterprise test suites across different environments.
 
 ```text
-pytest-api-automation/
-├── README.md                   # This document
-├── requirements.txt            # Python dependencies (Pytest, Requests, Allure)
-├── .github/workflows/          # CI/CD Pipelines (Allure Report Generation & GH Pages Deploy)
+📁 pytest-api-automation/
+├── 📄 README.md                   # This document
+├── 📄 requirements.txt            # Python dependencies (Pytest, Requests, Allure)
+├── 📁 .github/workflows/          # CI/CD Pipelines (Allure Report Generation & GH Pages Deploy)
 │
-├── luxury-store/               # E-commerce API validations
-│   └── tests/
-│       └── test_cart_api.py    # Math validations and backend logic
+├── 📁 luxury-store/               # E-commerce API validations
+│   └── 📁 tests/
+│       └── 📄 test_cart_api.py    # Math validations and backend logic
 │
-├── comptia/                    # Vouchers and pricing validations
-│   └── tests/
-│       └── test_exam_vouchers_api.py # JSON schema and data type checks
+├── 📁 comptia/                    # Vouchers and pricing validations
+│   └── 📁 tests/
+│       └── 📄 test_exam_vouchers_api.py # JSON schema and data type checks
 │
-├── core-api/                   # Core microservices and common utilities
-│   └── tests/
-│       └── test_auth.py        # Authentication and authorization tests
+├── 📁 core-api/                   # Core microservices and common utilities
+│   └── 📁 tests/
+│       └── 📄 test_auth.py        # Authentication and authorization tests
 │
-└── tavardt-backend/            # API layer for the Tavardt platform
-    └── tests/
-        ├── test_users_api.py   # CRUD operations and data integrity validations
-        └── test_payments.py    # Mocking and integration tests for external gateways
+└── 📁 tavardt-backend/            # API layer for the Tavardt platform
+    └── 📁 tests/
+        ├── 📄 test_users_api.py   # CRUD operations and data integrity validations
+        └── 📄 test_payments.py    # Mocking and integration tests for external gateways
 ```
 
 ## Live Quality Dashboard (Allure Report)
@@ -100,27 +100,27 @@ Este repositório demonstra minha capacidade de validar integridade de dados, ma
 Os scripts de teste são organizados por pastas de clientes/projetos, demonstrando uma estrutura corporativa pronta para escalar suítes de testes em diferentes ambientes de backend.
 
 ```text
-pytest-api-automation/
-├── README.md                   # Este documento
-├── requirements.txt            # Dependências Python (Pytest, Requests, Allure)
-├── .github/workflows/          # Pipelines CI/CD (Geração de Allure e Deploy no GH Pages)
+📁 pytest-api-automation/
+├── 📄 README.md                   # Este documento
+├── 📄 requirements.txt            # Dependências Python (Pytest, Requests, Allure)
+├── 📁 .github/workflows/          # Pipelines CI/CD (Geração de Allure e Deploy no GH Pages)
 │
-├── luxury-store/               # Validações de E-commerce
-│   └── tests/
-│       └── test_cart_api.py    # Validação de regras matemáticas e backend
+├── 📁 luxury-store/               # Validações de E-commerce
+│   └── 📁 tests/
+│       └── 📄 test_cart_api.py    # Validação de regras matemáticas e backend
 │
-├── comptia/                    # Validações de preços e vouchers
-│   └── tests/
-│       └── test_exam_vouchers_api.py # Checagem de tipos e JSON schema
+├── 📁 comptia/                    # Validações de preços e vouchers
+│   └── 📁 tests/
+│       └── 📄 test_exam_vouchers_api.py # Checagem de tipos e JSON schema
 │
-├── core-api/                   # Microsserviços base e utilitários
-│   └── tests/
-│       └── test_auth.py        # Testes de autenticação, JWT e autorização
+├── 📁 core-api/                   # Microsserviços base e utilitários
+│   └── 📁 tests/
+│       └── 📄 test_auth.py        # Testes de autenticação, JWT e autorização
 │
-└── tavardt-backend/            # Camada de API para a plataforma Tavardt
-    └── tests/
-        ├── test_users_api.py   # Operações CRUD e validação de integridade de schema
-        └── test_payments.py    # Testes de integração (Mocks) para gateways externos
+└── 📁 tavardt-backend/            # Camada de API para a plataforma Tavardt
+    └── 📁 tests/
+        ├── 📄 test_users_api.py   # Operações CRUD e validação de integridade de schema
+        └── 📄 test_payments.py    # Testes de integração (Mocks) para gateways externos
 ```
 
 ## Dashboard de Qualidade (Allure Report)
