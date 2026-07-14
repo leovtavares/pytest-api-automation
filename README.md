@@ -33,6 +33,10 @@ The test scripts are organized by client/project folders, demonstrating a scalab
 │   └── 📁 tests/
 │       └── 📄 test_auth.py        # Authentication and authorization tests
 │
+├── 📁 dio/                        # Educational Platform Backend
+│   └── 📁 tests/
+│       └── 📄 test_profile_api.py # API schema validation and 404 injection
+│
 └── 📁 tavardt-backend/            # API layer for the Tavardt platform
     └── 📁 tests/
         ├── 📄 test_users_api.py   # CRUD operations and data integrity validations
@@ -116,6 +120,10 @@ Os scripts de teste são organizados por pastas de clientes/projetos, demonstran
 ├── 📁 core-api/                   # Microsserviços base e utilitários
 │   └── 📁 tests/
 │       └── 📄 test_auth.py        # Testes de autenticação, JWT e autorização
+│
+├── 📁 dio/                        # Backend da Plataforma Educacional
+│   └── 📁 tests/
+│       └── 📄 test_profile_api.py # Validação de schema da API e injeção de 404
 │
 └── 📁 tavardt-backend/            # Camada de API para a plataforma Tavardt
     └── 📁 tests/
