@@ -29,18 +29,13 @@ The test scripts are organized by client/project folders, demonstrating a scalab
 │   └── 📁 tests/
 │       └── 📄 test_exam_vouchers_api.py # JSON schema and data type checks
 │
-├── 📁 core-api/                   # Core microservices and common utilities
-│   └── 📁 tests/
-│       └── 📄 test_auth.py        # Authentication and authorization tests
-│
 ├── 📁 dio/                        # Educational Platform Backend
 │   └── 📁 tests/
 │       └── 📄 test_profile_api.py # API schema validation and 404 injection
 │
-└── 📁 tavardt-backend/            # API layer for the Tavardt platform
+└── 📁 tavardt/                    # API layer for the Tavardt platform
     └── 📁 tests/
-        ├── 📄 test_users_api.py   # CRUD operations and data integrity validations
-        └── 📄 test_payments.py    # Mocking and integration tests for external gateways
+        └── 📄 test_tavardt_api.py # Core API tests
 ```
 
 ## Live Quality Dashboard (Allure Report)
@@ -117,18 +112,13 @@ Os scripts de teste são organizados por pastas de clientes/projetos, demonstran
 │   └── 📁 tests/
 │       └── 📄 test_exam_vouchers_api.py # Checagem de tipos e JSON schema
 │
-├── 📁 core-api/                   # Microsserviços base e utilitários
-│   └── 📁 tests/
-│       └── 📄 test_auth.py        # Testes de autenticação, JWT e autorização
-│
 ├── 📁 dio/                        # Backend da Plataforma Educacional
 │   └── 📁 tests/
 │       └── 📄 test_profile_api.py # Validação de schema da API e injeção de 404
 │
-└── 📁 tavardt-backend/            # Camada de API para a plataforma Tavardt
+└── 📁 tavardt/                    # Camada de API para a plataforma Tavardt
     └── 📁 tests/
-        ├── 📄 test_users_api.py   # Operações CRUD e validação de integridade de schema
-        └── 📄 test_payments.py    # Testes de integração (Mocks) para gateways externos
+        └── 📄 test_tavardt_api.py # Testes da API principal
 ```
 
 ## Dashboard de Qualidade (Allure Report)
