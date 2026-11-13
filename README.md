@@ -3,10 +3,10 @@
 <a id="english"></a>
 # Pytest API Automation Portfolio
 
-[![CI/CD Pipeline](https://github.com/realleotavares/pytest-api-automation/actions/workflows/pytest.yml/badge.svg)](https://github.com/realleotavares/pytest-api-automation/actions)
+[![CI/CD Pipeline](https://github.com/leovtavares/pytest-api-automation/actions/workflows/pytest.yml/badge.svg)](https://github.com/leovtavares/pytest-api-automation/actions)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?logo=pytest&logoColor=white)](https://docs.pytest.org/)
-[![Allure Report](https://img.shields.io/badge/Allure_Report-Live_Dashboard-blue?logo=qameta)](https://realleotavares.github.io/pytest-api-automation/)
+[![Allure Report](https://img.shields.io/badge/Allure_Report-Live_Dashboard-blue?logo=qameta)](https://leovtavares.github.io/pytest-api-automation/)
 
 Welcome to my backend quality assurance and API test automation portfolio.
 This repository demonstrates my ability to validate data integrity, handle HTTP requests, and implement test assertions directly in code, using an enterprise-ready architecture.
@@ -40,7 +40,7 @@ The test scripts are organized by client/project folders, demonstrating a scalab
 
 ## Live Quality Dashboard (Allure Report)
 
-> **[View Live Allure Test Report](https://realleotavares.github.io/pytest-api-automation/)**
+> **[View Live Allure Test Report](https://leovtavares.github.io/pytest-api-automation/)**
 > 
 > Our CI/CD pipeline automatically publishes the latest Pytest execution report to GitHub Pages using Allure. It includes detailed logs, execution times, and visual graphs of all backend tests.
 
@@ -52,7 +52,7 @@ Want to run these API tests locally? It takes less than a minute.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/realleotavares/pytest-api-automation.git
+git clone https://github.com/leovtavares/pytest-api-automation.git
 cd pytest-api-automation
 
 # 2. Create and activate a virtual environment
@@ -73,10 +73,10 @@ allure serve allure-results
 
 This repository is part of a larger Quality Engineering ecosystem, demonstrating my ability to test applications across the entire testing pyramid. Check out the other layers:
 
-- **[Playwright E2E Architecture](https://github.com/realleotavares/playwright-e2e-automation)** (Main E2E Framework)
-- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Backend JSON & Schema validation)
-- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (BDD & Keyword-Driven UI Testing)
-- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (Load, Stress & Spike Testing SLAs)
+- **[Playwright E2E Architecture](https://github.com/leovtavares/playwright-e2e-automation)** (Main E2E Framework)
+- **[Pytest API Automation](https://github.com/leovtavares/pytest-api-automation)** (Backend JSON & Schema validation)
+- **[QA Robot Framework & Python](https://github.com/leovtavares/qa-robot-framework-python)** (BDD & Keyword-Driven UI Testing)
+- **[K6 Performance Testing](https://github.com/leovtavares/k6-performance-testing)** (Load, Stress & Spike Testing SLAs)
 
 ---
 *This portfolio is governed by strict CI/CD and backend engineering standards.*
@@ -86,10 +86,10 @@ This repository is part of a larger Quality Engineering ecosystem, demonstrating
 <a id="português"></a>
 # Portfólio de Automação de API com Pytest
 
-[![CI/CD Pipeline](https://github.com/realleotavares/pytest-api-automation/actions/workflows/pytest.yml/badge.svg)](https://github.com/realleotavares/pytest-api-automation/actions)
+[![CI/CD Pipeline](https://github.com/leovtavares/pytest-api-automation/actions/workflows/pytest.yml/badge.svg)](https://github.com/leovtavares/pytest-api-automation/actions)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?logo=pytest&logoColor=white)](https://docs.pytest.org/)
-[![Allure Report](https://img.shields.io/badge/Allure_Report-Live_Dashboard-blue?logo=qameta)](https://realleotavares.github.io/pytest-api-automation/)
+[![Allure Report](https://img.shields.io/badge/Allure_Report-Live_Dashboard-blue?logo=qameta)](https://leovtavares.github.io/pytest-api-automation/)
 
 Bem-vindo ao meu portfólio de automação de testes de API e garantia de qualidade de backend.
 Este repositório demonstra minha capacidade de validar integridade de dados, manipular requisições HTTP e implementar asserções de teste diretamente via código.
@@ -123,7 +123,7 @@ Os scripts de teste são organizados por pastas de clientes/projetos, demonstran
 
 ## Dashboard de Qualidade (Allure Report)
 
-> **[Acessar Relatório Allure Interativo](https://realleotavares.github.io/pytest-api-automation/)**
+> **[Acessar Relatório Allure Interativo](https://leovtavares.github.io/pytest-api-automation/)**
 > 
 > Nossa pipeline CI/CD publica automaticamente o último relatório de execução do Pytest no GitHub Pages usando o Allure Report. Ele inclui logs detalhados de requisição, tempo de resposta e gráficos visuais.
 
@@ -135,7 +135,7 @@ Quer rodar estes testes na sua máquina? Leva menos de 1 minuto.
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/realleotavares/pytest-api-automation.git
+git clone https://github.com/leovtavares/pytest-api-automation.git
 cd pytest-api-automation
 
 # 2. Crie e ative um ambiente virtual
@@ -156,10 +156,10 @@ allure serve allure-results
 
 Este repositório faz parte de um ecossistema maior de Quality Engineering, demonstrando minha habilidade de testar aplicações em todas as camadas da Pirâmide de Testes. Conheça as outras camadas:
 
-- **[Playwright E2E Architecture](https://github.com/realleotavares/playwright-e2e-automation)** (Framework Principal de E2E)
-- **[Pytest API Automation](https://github.com/realleotavares/pytest-api-automation)** (Validação de Backend JSON & Schema)
-- **[QA Robot Framework & Python](https://github.com/realleotavares/qa-robot-framework-python)** (Testes de UI BDD & Keyword-Driven)
-- **[K6 Performance Testing](https://github.com/realleotavares/k6-performance-testing)** (SLAs de Load, Stress & Spike Testing)
+- **[Playwright E2E Architecture](https://github.com/leovtavares/playwright-e2e-automation)** (Framework Principal de E2E)
+- **[Pytest API Automation](https://github.com/leovtavares/pytest-api-automation)** (Validação de Backend JSON & Schema)
+- **[QA Robot Framework & Python](https://github.com/leovtavares/qa-robot-framework-python)** (Testes de UI BDD & Keyword-Driven)
+- **[K6 Performance Testing](https://github.com/leovtavares/k6-performance-testing)** (SLAs de Load, Stress & Spike Testing)
 
 ---
 *Este portfólio é governado por rigorosos padrões de CI/CD e engenharia de backend.*
